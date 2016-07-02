@@ -1,0 +1,44 @@
+compiling struct
+
+real	0m1.213s
+user	0m1.784s
+sys	0m0.520s
+compiling struct release
+
+real	0m3.865s
+user	0m3.960s
+sys	0m0.096s
+compiling class
+
+real	0m1.242s
+user	0m1.824s
+sys	0m0.520s
+compiling class release
+
+real	0m4.029s
+user	0m4.112s
+sys	0m0.104s
+struct
+100000000 == 100000000
+
+real	0m4.720s
+user	0m4.604s
+sys	0m0.112s
+struct release
+100000000 == 100000000
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+class
+100000000 == 100000000
+
+real	0m18.547s
+user	0m19.812s
+sys	0m2.392s
+class release
+100000000 == 100000000
+
+real	0m16.205s
+user	0m17.400s
+sys	0m2.272s
