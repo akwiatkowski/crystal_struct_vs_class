@@ -5,16 +5,20 @@ class Cat
   property :name, :age
 end
 
-count = 100_000_000
+count = 2_000_000
 i = 0
+sum = 0
 
 count.times do
+  n = "cat #{i}"
+
   c = Cat.new
-  c.name = "cat"
-  c.age = 2
+  c.name = n
+  c.age = i
 
-  i += 1 if c.age == 2 && c.name == "cat"
+  sum += c.age
 
+  i += 1
 end
 
 puts "#{count} == #{i}"

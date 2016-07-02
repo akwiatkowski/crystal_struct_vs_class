@@ -1,21 +1,23 @@
-echo "compiling struct"
+printf "\n\n\ncompiling struct\n"
 time crystal struct.cr -o struct
-echo "compiling struct release"
+printf "\n\n\ncompiling struct release\n"
 time crystal struct.cr --release -o struct_r
 
-echo "compiling class"
+printf "\n\n\ncompiling class\n"
 time crystal class.cr -o class
-echo "compiling class release"
+printf "\n\n\ncompiling class release\n"
 time crystal class.cr --release -o class_r
 
-echo "struct"
+printf "\n\n\nstruct\n"
 time ./struct
 
-echo "struct release"
+printf "\n\n\nstruct release\n"
 time ./struct_r
 
-echo "class"
+printf "\n\n\nclass\n"
 time ./class
 
-echo "class release"
+printf "\n\n\nclass release\n"
 time ./class_r
+
+printf "\n\n"
